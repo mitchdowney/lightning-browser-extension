@@ -16,6 +16,8 @@ import Vida from "./Vida";
 import VimeoVideo from "./VimeoVideo";
 import YouTubeChannel from "./YouTubeChannel";
 import YouTubeVideo from "./YouTubeVideo";
+import Medium from "./Medium";
+import Mastodon from "./Mastodon";
 
 // Order is important as the first one for which the URL matches will be used
 const enhancements = [
@@ -34,6 +36,7 @@ const enhancements = [
   Substack,
   GeyserProject,
   Vida,
+  Mastodon,
 
   // Monetization must likely always be the last one as this is the fallback option if no specific enhancement matched
   Monetization,
